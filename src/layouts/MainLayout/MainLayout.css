@@ -1,0 +1,14 @@
+.main-layout {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+
+    background: #F8D8B8;
+
+}

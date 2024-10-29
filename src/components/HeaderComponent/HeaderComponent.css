@@ -1,0 +1,148 @@
+.header-component {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+    width: 100%;
+    height: 120px;
+
+    background: #004832;
+}
+
+.header {
+    /* Frame 5556 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+
+    width: 75%;
+    height: 58px;
+}
+
+/* ------------------------------------------------------*/
+.logo-name {
+    /* Frame 6081 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 29px;
+
+    margin: 0 auto;
+    width: 23%;
+    height: 58px;
+
+    cursor: pointer;
+}
+
+.logo {
+    /* logo_LivroMundo */
+    width: 53px;
+    height: 58px;
+}
+
+.shop-name {
+    /* SkinClinic */
+
+    width: 213px;
+    height: 41px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+
+    color: #FFFFFF;
+}
+
+/* ------------------------------------------------------*/
+
+.links-container {
+    /* links */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+
+    margin: 0 auto;
+    width: 33%;
+    height: 44px;
+
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+
+    width: 20%;
+    height: 44px;
+
+    cursor: pointer;
+    border-radius: 50px;
+
+    transition: background 0.5s ease;
+}
+
+.link:hover {
+    background: #F8D8B8;
+
+}
+
+.link-home {
+    /* home */
+    border-radius: 4px;
+}
+
+.link-shop {
+    /* shop */
+    background: #FFD012;
+    border-radius: 50px;
+
+}
+
+/* ------------------------------------------------------*/
+
+.buy-icon {
+    /* buy icon */
+
+    /* Auto layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+    margin: 0 auto;
+    width: 44px;
+    height: 44px;
+
+    background: #FFD012;
+    border-radius: 50px;
+
+    cursor: pointer;
+}
+
+.buy-icon svg {
+    /* Vector */
+
+    width: 24px;
+    height: 21px;
+
+    background: #004832;
+}
