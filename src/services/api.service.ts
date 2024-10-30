@@ -8,7 +8,10 @@ const bookService = {
             throw new Error(`HTTP error! Status: ${response.status}`);
          }
          const data: IBook[] = await response.json();
-         return data;
+         if (data) {
+            return data;
+         }
+         return [];
       } catch (error) {
          console.error("Error fetching data from data.json:", error);
          throw error;

@@ -6,11 +6,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0;
-    gap: 38px;
+    gap: 20px;
+    padding: 20px;
 
     width: 75%;
     flex: 1;
+
 }
 
 /* ------------------------------------------------------*/
