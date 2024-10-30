@@ -20,7 +20,7 @@ const BooksListComponent: FC = () => {
          }
       };
 
-      fetchBooks();
+      fetchBooks().then();
    }, []);
    return (
       <div className="books-list">
