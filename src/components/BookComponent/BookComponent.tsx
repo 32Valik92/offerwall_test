@@ -4,7 +4,7 @@ import React, {FC} from "react";
 
 import {IBook} from "../../models";
 import {useAppDispatch} from "../../redux";
-import {bookActions} from "../../redux/bookSlice/bookSlice";
+import {bookActions} from "../../redux";
 
 interface IProps {
     book: IBook;

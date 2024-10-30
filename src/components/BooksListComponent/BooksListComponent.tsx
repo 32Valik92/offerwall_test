@@ -3,7 +3,7 @@ import "./BooksListComponent.css";
 import React, {FC, useEffect} from "react";
 
 import {useAppDispatch, useAppSelector} from "../../redux";
-import {bookActions} from "../../redux/bookSlice/bookSlice";
+import {bookActions} from "../../redux";
 import {BookComponent} from "../BookComponent/BookComponent";
 
 const BooksListComponent: FC = () => {
