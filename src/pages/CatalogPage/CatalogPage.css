@@ -1,6 +1,68 @@
 .catalog-page {
-    min-height: 100px;
-    border: 5px red solid;
+    /* Frame 6069 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 38px;
+
+    width: 75%;
+    flex: 1;
+}
+
+/* ------------------------------------------------------*/
+.catalog-title {
+    /* title */
+
     width: 100%;
-    box-sizing: border-box;
+
+    font-family: 'Montserrat ', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #002700;
+}
+
+/* ------------------------------------------------------*/
+
+/* ------------------------------------------------------*/
+.see-more-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.see-more-button {
+    background: #FFD012;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: none;
+
+    /* see more */
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    color: #002700;
+
+    padding: 20px 10px;
+
+    width: 230px;
+    height: 60px;
+
+    transition: background 0.5s ease;
+}
+
+.see-more-button:hover {
+    background: #ffe281;
 }

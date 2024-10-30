@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "price": 12.99,
+    "imageURL": "https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale,dpr_1.5/jackets/9781408855652.jpg",
+    "description": "The first adventure of a young wizard, Harry Potter."
+  },
+  {
+    "id": 2,
+    "title": "Charlotte's Web",
+    "price": 7.99,
+    "imageURL": "https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale,dpr_1.5/jackets/9781408855652.jpg",
+    "description": "A touching story of friendship between a pig and a spider."
+  },
+  {
+    "id": 3,
+    "title": "Where the Wild Things Are",
+    "price": 6.50,
+    "imageURL": "https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale,dpr_1.5/jackets/9781408855652.jpg",
+    "description": "A journey to the land of the Wild Things."
+  },
+  {
+    "id": 4,
+    "title": "The Very Hungry Caterpillar",
+    "price": 5.99,
+    "imageURL": "https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale,dpr_1.5/jackets/9781408855652.jpg",
+    "description": "A colorful journey of a caterpillar's transformation."
+  },
+  {
+    "id": 5,
+    "title": "Matilda",
+    "price": 8.99,
+    "imageURL": "https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale,dpr_1.5/jackets/9781408855652.jpg",
+    "description": "The story of a brilliant girl with extraordinary powers."
+  },
+  {
+    "id": 6,
+    "title": "Alice's Adventures in Wonderland",
+    "price": 9.50,
+    "imageURL": "https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale,dpr_1.5/jackets/9781408855652.jpg",
+    "description": "A whimsical journey through Wonderland."
+  },
+  {
+    "id": 7,
+    "title": "Winnie-the-Pooh",
+    "price": 10.99,
+    "imageURL": "https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale,dpr_1.5/jackets/9781408855652.jpg",
+    "description": "Adventures of Pooh Bear and friends in the Hundred Acre Wood."
+  },
+  {
+    "id": 8,
+    "title": "Pippi Longstocking",
+    "price": 7.25,
+    "imageURL": "https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale,dpr_1.5/jackets/9781408855652.jpg",
+    "description": "The exciting adventures of Pippi, the strong and independent girl."
+  }
+]
