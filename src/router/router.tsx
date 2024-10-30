@@ -2,7 +2,7 @@ import React from "react";
 import {createBrowserRouter} from "react-router-dom";
 
 import {MainLayout} from "../layouts";
-import {CatalogPage} from "../pages";
+import {CatalogPage, ShoppingCartPage} from "../pages";
 
 const router = createBrowserRouter([
    {
@@ -12,7 +12,11 @@ const router = createBrowserRouter([
       children: [
          {
             index: true,
-            element: <CatalogPage/>
+            element: <CatalogPage/>,
+         },
+         {
+            path: "shopping-cart",
+            element: <ShoppingCartPage/>
          }
       ]
    }
