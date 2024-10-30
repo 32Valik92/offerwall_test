@@ -104,11 +104,8 @@
 
 }
 
-.link-shop {
-    /* shop */
+.link-shop.highlighted {
     background: #FFD012;
-    border-radius: 50px;
-
 }
 
 /* ------------------------------------------------------*/
