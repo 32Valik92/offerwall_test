@@ -1,0 +1,179 @@
+.footer-component {
+    /* footer */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+    width: 100%;
+    min-height: 247px;
+
+    background: #004832;
+}
+
+.footer {
+    /* Frame 6057 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+
+    margin: 0 auto;
+    width: 75%;
+    height: 127px;
+}
+
+/* ------------------------------------------------------*/
+
+.footer-elements {
+    /* footer elements */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    gap: 12px;
+
+    width: 23%;
+    height: 127px;
+}
+
+.elements-logo-name {
+    /* Frame 6081 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 29px;
+
+    width: 295px;
+    height: 58px;
+    cursor: pointer;
+
+}
+
+.footer-logo {
+    /* logo_LivroMundo */
+
+    width: 53px;
+    height: 58px;
+}
+
+.footer-shop-name {
+    /* SkinClinic */
+
+    width: 213px;
+    height: 41px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+
+    color: #FFFFFF;
+}
+
+.elements-icons {
+    /* footer elements */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    gap: 12px;
+
+    width: 55%;
+    height: 30px;
+
+}
+
+.elements-icons img {
+    /* Graphic_Elements */
+    color: #FFFFFF;
+    background: #FFD012;
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.elements-small-text {
+    /* ©"LivroMundo" JSC, 2023 - 2024 */
+
+    width: 100%;
+    height: 15px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    /*line-height: 15px;*/
+
+    color: #FFFFFF;
+}
+
+/* ------------------------------------------------------*/
+
+.address-phone-workingtime {
+    /* address/phone/working time */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+
+    width: 22%;
+    height: 127px;
+}
+
+.footer-contact {
+    /* Address */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 30px;
+
+    width: 100%;
+    height: 42px;
+}
+
+.footer-icon {
+    /* Frame 5512 */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 34px;
+    height: 40px;
+}
+
+.footer-icon img {
+    width: 22px;
+}
+
+.info-text {
+    max-width: 212px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
