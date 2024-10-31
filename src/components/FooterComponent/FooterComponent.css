@@ -177,3 +177,54 @@
     font-weight: 400;
     font-size: 14px;
 }
+
+/* ------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .footer-component {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 0;
+        gap: 15px;
+    }
+
+    .footer-elements {
+        width: 280px;
+        align-items: center;
+    }
+
+    .elements-logo-name {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-logo {
+        width: 39px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-logo img {
+        width: 39px;
+    }
+
+    .footer-shop-name {
+        font-size: 16px;
+        font-weight: 700;
+        width: auto;
+    }
+
+    .elements-small-text {
+        display: none;
+    }
+
+    .address-phone-workingtime {
+        width: 280px;
+    }
+}
