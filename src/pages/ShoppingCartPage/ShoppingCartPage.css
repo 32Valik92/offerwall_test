@@ -177,3 +177,26 @@
     background-color: #a3a3a3;
 }
 /* ------------------------------------------------------*/
+/* ------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+
+    .shopping-cart-container{
+
+        flex-direction: column;
+    }
+
+    .card-details-container{
+        border-radius: 0 0 30px 30px;
+        display: flex;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .payment-text{
+        font-size: 16px;
+    }
+
+    .cards-container img{
+        width: 50px;
+    }
+}
