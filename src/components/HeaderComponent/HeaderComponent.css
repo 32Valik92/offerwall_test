@@ -153,6 +153,24 @@
     .logo-name {
         flex: 1;
         width: auto;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .logo{
+        width: 39px;
+        display: flex;
+        align-items: center;
+    }
+    .logo img{
+        width: 39px;
+    }
+    .shop-name {
+        font-size: 16px;
+        width: auto;
+        display: flex;
+        align-items: center;
     }
 
     .links-container .link {
