@@ -3,10 +3,7 @@ import "./HeaderComponent.css";
 import React, {FC} from "react";
 import {Link, useLocation} from "react-router-dom";
 
-import {useAppSelector} from "../../redux";
-
 const HeaderComponent: FC = () => {
-   const {buyingBooks} = useAppSelector(state => state.bookStore);
    const location = useLocation();
 
    return (
@@ -25,7 +22,7 @@ const HeaderComponent: FC = () => {
             </div>
 
             <Link to={"shopping-cart"}>
-               <div className={`buy-icon ${buyingBooks.length > 0 ? "active" : ""}`}>
+               <div className={"buy-icon"}>
                   <img src="/images/Vector.svg" alt="Vector"/>
                </div>
             </Link>

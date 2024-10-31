@@ -14,6 +14,7 @@ const BookComponent: FC<IProps> = ({book}) => {
    const dispatch = useAppDispatch();
    const addToCart = (): void => {
       dispatch(bookActions.setBookForBuying(book));
+      dispatch(bookActions.changeTotalSum(book.price));
    };
    return (
       <div className="book-item">

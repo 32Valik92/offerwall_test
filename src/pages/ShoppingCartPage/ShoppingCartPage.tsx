@@ -4,6 +4,7 @@ import {joiResolver} from "@hookform/resolvers/joi";
 import React, {FC} from "react";
 import {useForm} from "react-hook-form";
 
+import {ShoppingCartComponent} from "../../components";
 import {ICardData} from "../../models";
 import {cardValidator} from "../../validator";
 
@@ -24,7 +25,7 @@ const ShoppingCartPage: FC = () => {
 
    return (
       <div className="shopping-cart-container">
-         <div className="shopping-cart">в</div>
+         <ShoppingCartComponent/>
 
          <div className="card-details-container">
             <div className="card-container">
@@ -57,9 +58,8 @@ const ShoppingCartPage: FC = () => {
                   <label>
                             Card expiration
                      <div className="expiration-container">
-                        <select {...register("expirationMonth")}>
-                           <option value="" disabled selected>Month</option>
-
+                        <select defaultValue="" {...register("expirationMonth")}>
+                           <option value="" disabled>Month</option>
                            {months.map(month => (
                               <option key={month} value={month}>
                                  {month < 10 ? `0${month}` : month}
@@ -67,9 +67,8 @@ const ShoppingCartPage: FC = () => {
                            ))}
                         </select>
 
-                        <select {...register("expirationYear")}>
-                           <option value="">Year</option>
-
+                        <select defaultValue="" {...register("expirationYear")}>
+                           <option value="" disabled>Year</option>
                            {years.map(year => (
                               <option key={year} value={year}>
                                  {year}
@@ -78,13 +77,13 @@ const ShoppingCartPage: FC = () => {
                         </select>
                      </div>
                      {errors.expirationMonth &&
-                                <span className="form-error-message">{errors.expirationMonth.message}</span>}
+                         <span className="form-error-message">{errors.expirationMonth.message}</span>}
                      {errors.expirationYear &&
-                                <span className="form-error-message">{errors.expirationYear.message}</span>}
+                         <span className="form-error-message">{errors.expirationYear.message}</span>}
                   </label>
 
                   <label>
-                            Card Security Code
+                     Card Security Code
                      <input type="text" placeholder="Code"{...register("securityCode")}/>
                      {errors.securityCode &&
                                 <span className="form-error-message">{errors.securityCode.message}</span>}

@@ -6,11 +6,13 @@ import {bookService} from "../../services";
 interface IState {
     books: IBook[];
     buyingBooks: IBook[];
+    totalSum: number;
 }
 
 const initialState: IState = {
    books: [],
-   buyingBooks: []
+   buyingBooks: [],
+   totalSum: 0
 };
 
 const getAll = createAsyncThunk<IBook[], void>(
@@ -36,6 +38,17 @@ const slice = createSlice({
             state.buyingBooks = [...state.buyingBooks, action.payload];
          }
       },
+      removeBookFromCart: (state, action) => {
+         const bookToRemove = state.buyingBooks.find(book => book.id === action.payload);
+         if (bookToRemove) {
+            state.totalSum -= bookToRemove.price;
+            state.buyingBooks = state.buyingBooks.filter(book => book.id !== action.payload);
+         }
+      },
+
+      changeTotalSum: (state, action) => {
+         state.totalSum = state.totalSum + action.payload;
+      }
    },
    extraReducers: builder =>
       builder
