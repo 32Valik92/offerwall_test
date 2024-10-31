@@ -4,3 +4,12 @@
     gap: 16px;
     width: 100%;
 }
+
+/* ------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .books-list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

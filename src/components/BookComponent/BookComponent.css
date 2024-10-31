@@ -107,3 +107,11 @@
     background: #ffe281;
     cursor: pointer;
 }
+
+/* ------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .book-item{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
