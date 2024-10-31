@@ -126,6 +126,9 @@
     color: #FFFFFF;
 }
 
+.elements-small-mobile-text{
+    display: none;
+}
 /* ------------------------------------------------------*/
 
 .address-phone-workingtime {
@@ -180,17 +183,18 @@
 
 /* ------------------------------------------------------------------------- */
 @media (max-width: 768px) {
-    .footer-component {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
     .footer {
         flex-direction: column;
         height: auto;
         padding: 30px 0;
-        gap: 15px;
+        gap: 25px;
+    }
+
+
+    .footer-component {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .footer-elements {
@@ -226,5 +230,14 @@
 
     .address-phone-workingtime {
         width: 280px;
+    }
+
+    .elements-small-mobile-text{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        font-size: 12px;
     }
 }

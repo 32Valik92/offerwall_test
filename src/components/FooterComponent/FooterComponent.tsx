@@ -39,6 +39,9 @@ const FooterComponent: FC = () => {
                   <div className="info-text">info@moviestore.nl</div>
                </div>
             </div>
+
+            <div className="elements-small-mobile-text">©&#34;LivroMundo&#34; JSC, 2023 - 2024</div>
+
          </div>
       </footer>
    );
