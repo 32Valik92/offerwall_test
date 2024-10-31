@@ -19,6 +19,11 @@ const HeaderComponent: FC = () => {
                <div className={`link link-shop ${location.pathname === "/" ? "highlighted" : ""}`}>Shop</div>
                <div className="link link-about">About</div>
                <div className="link link-contact">Contact</div>
+
+               {/* Іконка для мобільних пристроїв */}
+               <div className="mobile-icon">
+                  <img src="/images/menu.svg" alt="Vector"/>
+               </div>
             </div>
 
             <Link to={"shopping-cart"}>

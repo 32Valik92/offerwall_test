@@ -108,6 +108,10 @@
     background: #FFD012;
 }
 
+.links-container .mobile-icon {
+    display: none;
+}
+
 /* ------------------------------------------------------*/
 
 .buy-icon {
@@ -137,4 +141,34 @@
     height: 21px;
 
     background: #004832;
+}
+
+/* ------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .header {
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    .logo-name {
+        flex: 1;
+        width: auto;
+    }
+
+    .links-container .link {
+        display: none;
+    }
+
+    .links-container {
+        width: 44px;
+        margin: 0;
+    }
+
+    .links-container .mobile-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+    }
 }
